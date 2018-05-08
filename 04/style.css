@@ -1,0 +1,32 @@
+body{
+	margin: 0px;
+	padding: 0px; 
+	background: #006699;
+	color: white;
+}
+p, h1{
+	text-align: center;
+
+}
+.container:before{
+	content: "";
+	background-image: url(img.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	filter: brightness(0.5) sepia(1) saturate(5) hue-rotate(90dge);
+	width: 400px;
+	height: 300px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: -1;
+
+}
+.container{
+	width: 400px;
+	height: 300px;
+	margin: 100px auto;
+	position: relative;
+	
+}
